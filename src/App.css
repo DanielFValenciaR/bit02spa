@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -139,4 +139,149 @@ body {
     width: 70%;
 }
 
+.inicio-container {
+    padding: 0 5rem;
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+}
 
+.h-container {
+    color: #FFFFFF;
+}
+
+.h-container h1 {
+    text-align: center;
+    padding: 4rem;
+    font-size: 4rem;
+}
+
+.h-container h2 {
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+    color:black;
+}
+
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 2rem;
+}
+
+.list-container li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.list-container figure {
+    width: 60%;
+    padding: 2rem;
+}
+
+.list-container figure img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 2rem black;
+}
+
+.como-container h2 {
+    margin: 2rem 0;
+}
+
+.como-container p {
+    padding: 0 10rem 3rem 0;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 3rem 0;
+}
+
+.tarjetas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 110rem;
+    margin: auto;
+}
+
+.tarjeta-container {
+    text-align: center;
+    border: 0.3rem solid black;
+    background-color: #1F0A4E;
+    color: #FFFFFF;
+    border-radius: 2rem;
+    margin-bottom: 5rem;
+    padding-top: 2rem;
+    width: 22.5rem;
+    height: 42rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-container button {
+    padding: 0.5rem 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+}
+
+.precio {
+    margin: 0.8rem 0;
+}
+
+.images-container {
+    width: 100%;
+}
+
+.images-container img {
+    width: 20rem;
+    height: 24rem;
+    object-fit: contain;
+}
+
+.carrito-container {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 13rem;
+}
+
+.carrito-container button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.pagar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.resumen-pagar {
+    text-align: center;
+    border: 0.5rem solid black;
+    box-shadow: 0 2rem 4rem black;
+    border-radius: 1rem;
+    width: 40%;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.resumen-pagar button {
+    margin: 1rem 1rem 0 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.contorno {
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+}

@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Navegacion />
       <Routes>
-        <Route path="/" element={<PaginaInicio/>} />
+        <Route path="/bit02spa" element={<PaginaInicio/>} />
         <Route path="/sobre-nosotros" element={<PaginaSobreNosotros/>} />
         <Route path="/productos" element={<PaginaProductos/>} />
         <Route path="*" element={<PaginaNoEncontrada/>} />
