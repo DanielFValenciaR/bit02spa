@@ -76,7 +76,7 @@ export const Juegos = ({ portafolio }) => {
             alert("Carrito vacío, agregue productos")
         } else {
             // const resumen = productos.map()
-            const gracias = (<div className="resumen-pagar"><div>GRACIAS POR SU COMPRA!!</div></div>);
+            const gracias = (<div className="resumen-pagar"><div>GRACIAS POR TU COMPRA!! <br/> Te enviaremos tu código digital </div></div>);
             const detalles = (
                 <div className="resumen-pagar">
                     <div>RESUMEN:</div>

@@ -166,6 +166,8 @@ body {
     justify-content: center;
     list-style: none;
     padding-bottom: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 2rem 3rem black;
 }
 
 .list-container li {
@@ -185,15 +187,21 @@ body {
     height: auto;
     object-fit: contain;
     border-radius: 0.5rem;
-    box-shadow: 0 1rem 2rem black;
+    box-shadow: 0 2rem 3rem black;
+    transition: transform 0.3s ease;
+}
+
+.list-container figure img:hover {
+    transform: scale(1.10);
 }
 
 .como-container h2 {
-    margin: 2rem 0;
+    margin: 4rem 0;
 }
 
 .como-container p {
     padding: 0 10rem 3rem 0;
+    color: #FFFFFF;
 }
 
 .titulo {
@@ -232,6 +240,19 @@ body {
     margin-bottom: 2rem;
     font-size: 1.8rem;
     border-radius: 1rem;
+    color: #FFFFFF;
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+    cursor: pointer;
+}
+
+.tarjeta-container button:hover{
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
 }
 
 .precio {
@@ -245,7 +266,13 @@ body {
 .images-container img {
     width: 20rem;
     height: 24rem;
+    padding-bottom: 1.5rem;
     object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.images-container img:hover {
+    transform: scale(1.1);
 }
 
 .carrito-container {
@@ -254,11 +281,24 @@ body {
     gap: 2rem;
     margin-bottom: 3rem;
     margin-right: 13rem;
+    color: #FFFFFF;
 }
 
 .carrito-container button {
     padding: 0.5rem;
     border-radius: 0.5rem;
+    color: #FFFFFF;
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+.carrito-container button:hover{
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
 }
 
 .pagar-container {
@@ -280,6 +320,18 @@ body {
     margin: 1rem 1rem 0 0;
     padding: 1rem;
     border-radius: 0.5rem;
+    color: #FFFFFF;
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+.resumen-pagar button:hover{
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
 }
 
 .contorno {
